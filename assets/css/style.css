@@ -1,0 +1,40 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFF;
+    margin-top: 3em;
+    padding: 3em;
+    border-radius: 50px;
+}
+
+.display {
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    border-color: rgb(0, 221, 221);
+    border-style: solid;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.4em;
+    font-size: 1.3em;
+    border-style: none;
+    background-color: rgb(0, 221, 221);
+    color: #FFF;
+}
+.btn:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.btn-result {
+    background-color: darkcyan;
+}
